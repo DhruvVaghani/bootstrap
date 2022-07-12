@@ -1,0 +1,113 @@
+body{
+    font-family: 'Kanit', sans-serif;
+}
+#title{
+    background-color: #ff4c68;
+    color: aliceblue;
+}
+.row h1{
+    font-family: 'Kanit', sans-serif;
+    font-weight: bolder;
+    font-size: 3rem;
+    
+}
+
+
+
+.row button{
+    margin: 5% 1%;
+}
+.navbar-brand{
+    font-size: 10rem;
+    font-weight: bold;
+}
+
+.navbar{
+    padding-bottom: 5%;
+}
+
+.nav-item{
+    padding: 0% 15px;
+    font-size: 1.2rem;
+}
+.title-img{
+    width: 50%;
+    transform: rotate(20deg);
+    
+    
+}
+#features i{
+    color: #ff4c68;
+    
+}
+#features{
+    color: black;
+    background-color: aliceblue;
+    padding: 7% 15%;
+    position: relative;
+}
+@media screen and (max-width: 900px) {
+#features{
+    text-align: center;
+}
+}
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ff4c68;
+    color: aliceblue;
+    font-weight: bolder;
+}
+.testo-img{
+    width: 30%;
+    border-radius: 100%;
+}
+#press{
+    background-color: #ff4c68;
+    text-align: center;
+    padding-bottom: 3%;
+}
+#press img{
+    width: 20%;
+    margin: 5px;
+}
+#pricing .card-deck{
+    padding: 5% 7%;
+}
+#pricing{
+    text-align: center;
+}
+.title-img{
+    position: absolute;
+}
+@media (max-width :1000px) {
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+    
+}
+#cta{
+    height: 300px;
+    background-color: #ff4c68;
+    color: aliceblue;
+    font-weight: bolder;
+    
+    text-align: center;
+}
+.ctt{
+    padding: 5% 0%;
+}
+.ctt button{
+    margin: 3% 1%;
+}
+#footer{
+    height: 150px;
+   
+}
+#footer i{
+    padding: 1% .5%;
+}#footer p{
+    font-weight: 500;
+    color: gray;
+}
